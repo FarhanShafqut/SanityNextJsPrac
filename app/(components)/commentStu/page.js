@@ -41,9 +41,9 @@ export default async function CommentStu() {
 return (
   <>
   <div className=" grid  grid-cols-1 sm:grid-cols-2 gap-4" >
-  {commentss.map((e)=>{
+  {commentss.map((e,i)=>{
     return(
-      <div class="testimonials-col">
+      <div class="testimonials-col" key={i} >
    <img className="w-[10px]"   src={urlForImage(e.commentssImage).url()} alt="" /> 
                 <div>
                     <p>{e.body}</p>

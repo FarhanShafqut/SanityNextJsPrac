@@ -20,7 +20,7 @@ export default async function Header(props) {
             <Navbar/>
             {navName.map((e,i)=>{
     return(
-        <h1>{e.navName}</h1>
+        <h1 key={i} >{e.navName}</h1>
       )
   })}
         </section>

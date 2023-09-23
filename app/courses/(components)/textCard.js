@@ -11,14 +11,14 @@ const textcard1 = async ()=>{
     //   console.log(`response` , response)
       return response
   }
-export default async function TextCard(props) {
+export default async function TextCard() {
     let textcard = await textcard1 () 
     return (
         <>
         <div className=" grid  grid-cols-1 sm:grid-cols-3 gap-4" >
-        {textcard.map((e)=>{
+        {textcard.map((e,i)=>{
             return(
-                <div className="course-col">
+                <div className="course-col" key={i}>
                 <h3>{e.textcard1}</h3>
                 <p>
                     {e.textcarddes}

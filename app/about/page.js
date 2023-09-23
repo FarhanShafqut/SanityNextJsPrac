@@ -38,7 +38,7 @@ export default async function About() {
     return(
       <>
       {e._id == 'c1c7e656-c5fd-41e5-8d03-4b34a2cd5579' && (
-        <section  className="Sub-header">
+        <section  className="Sub-header" key={i}>
         <Navbar/>
         <h1>{e.navName}</h1>
         </section>

@@ -18,7 +18,10 @@ export default async function Multibutton() {
         <>
          {multibutton.map((e,i)=>{
     return(
+      <div key={i}>
+
         <button className="hero_btn btn">{e.title}</button>
+      </div>
       )
   })}
         </>

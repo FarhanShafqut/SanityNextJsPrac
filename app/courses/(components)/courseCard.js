@@ -33,9 +33,9 @@ export default async function CourseCard() {
 return (
   <>
   <div className=" grid  grid-cols-1 sm:grid-cols-3 gap-4" >
-  {courseCard.map((e)=>{
+  {courseCard.map((e,i)=>{
       return(
-          <div class="facilities-col">
+          <div class="facilities-col" key={i}>
         <img className=""   src={urlForImage(e.mainImage).url()} alt=""
                  style={{width : '500px'}}   /> 
             <h3>{e.title}</h3>
