@@ -59,7 +59,7 @@ return (
                 <i className={e.fotter5}></i>
                 {/* <i className="fab fa-linkedin"></i> */}
             </div>
-            <p>Made with <i className="fas fa-heart"></i> by <a href="index.html">{e.fotter6}</a></p>
+            <p>Made With <i className="fas fa-heart"></i> by <a href="index.html">{e.fotter6}</a></p>
             {/* <p>Copyright © 2021 Xplore Skill. All Rights Reserved</p> */}
             <p>{e.fotter2}</p>
         </section>
