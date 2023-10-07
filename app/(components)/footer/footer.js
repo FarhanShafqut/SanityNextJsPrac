@@ -36,6 +36,8 @@ const fotter1 = async ()=>{
     return response
 }
 
+
+
 export default async function Footer() {
   let fotter = await fotter1();
 return (

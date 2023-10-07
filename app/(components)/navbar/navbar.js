@@ -8,7 +8,7 @@ let styleObj = {
 export default function Navbar() {
     return (
         <nav>
-            <Link href="/" className="logo">Xplore
+            <Link href="/" className="logo">XPlores
                 <i className="fab fa-staylinked"></i>Kill
             </Link>
          
